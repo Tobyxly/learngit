@@ -1,6 +1,6 @@
 update table salary 
     set 
-        sex = case 
+        sex = case sex
         when 'f' then 'm'
         else 'f'
     end;
